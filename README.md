@@ -41,7 +41,7 @@ The analysis of the election show that:
   -Arapahoe
 -The county results were:
   -Jefferson contributed 10.5% votes to the election with 38,855 votes
-  -Denver contributed 82.85 votes to the election with 306,055 votes
+  -Denver contributed 82.8% votes to the election with 306,055 votes
   -Arapahoe contributed 6.7% votes to the election with 24,801 votes
 -The county with the largest turnout was:
   -Denver
