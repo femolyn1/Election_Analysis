@@ -85,3 +85,11 @@ now = dt.datetime.now()
 
 # print the present time.
 print("The time right now is ",now)
+
+
+def ourprettyFunction( anothernumber, icecreamflavour="chocolate", number="I am bob"):
+    return f"{number}, {anothernumber},{icecreamflavour}
+    string1=ourprettyFunction(2,"chocolate",1)
+    print(string1)
+# Create a list that prompt user for name of 5 people they know
+
