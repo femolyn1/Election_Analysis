@@ -52,20 +52,20 @@ with open(file_to_save, "w") as txt_file:
     # Save the final vote count to the text file.
     txt_file.write(election_results)    
   
-#Determine the percentage of votes for each county by looping throgh the county list
+#Determine the percentage of votes for each county by looping through the county list
     for county in county_votes:
-            #retrieve vote count of a candidate
+            #retrieve vote count of each county
         votes = county_votes[county]
         vote_percentage = float(votes) / float(total_votes) * 100
         county_results=(
-        
+            
             f" {county}:{vote_percentage:.1f}% ({votes:,})\n")  
 
          #Print each county vote count and percentage to the terminal
         print(county_results)
-        #Save the candidateresults to our text file
+        #Save the county results to our text file
         txt_file.write(county_results)
-        # Determine winning vote count, winning percentage, and winning candidate.
+        # Determine largest vote count, largest county percentage, and largest county.
         if (votes > largestcounty_count) and (vote_percentage > largestcounty_percentage):
             largestcounty_count=votes
             largestcounty_percentage=vote_percentage
