@@ -80,4 +80,4 @@ with open(file_to_save, "w") as txt_file:
     #Save the largest county turnout result to the text file
     txt_file.write(largest_county_summary)
 
-    
+     
